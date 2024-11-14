@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Practise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="score-board">
+        <div class="board one">
+          <p class="title">HOME</p>
+          <div id="score-one">
+            <p id="brd-one">0</p>
+          </div>
+          <div class="buttons">
+            <button id="increase-one" onclick="increseScrHome(1)">+1</button>
+            <button id="increase-two" onclick="increseScrHome(2)">+2</button>
+            <button id="increase-three" onclick="increseScrHome(3)">+3</button>
+          </div>
+        </div>
+        <div class="board two">
+          <p class="title">GUEST</p>
+          <div id="score-one">
+            <p id="brd-two">0</p>
+          </div>
+          <div class="buttons">
+            <button id="increase-one" onclick="increseScrGuest(1)">+1</button>
+            <button id="increase-two" onclick="increseScrGuest(2)">+2</button>
+            <button id="increase-three" onclick="increseScrGuest(3)">+3</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
